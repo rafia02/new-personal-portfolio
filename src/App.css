@@ -3,6 +3,16 @@
 -webkit-box-shadow: 1px 2px 37px 11px #54209c;
 -moz-box-shadow: 1px 2px 37px 11px #54209c;
 }
+.box-shadow{
+  box-shadow: 1px 2px 30px 11px  #642fad;
+-webkit-box-shadow:1px 2px 10px 5px #54209c;
+-moz-box-shadow: 1px 2px 10px 5px #54209c;
+}
+.submit-shadow{
+  box-shadow: 1px 2px 30px 11px  rgb(245 158 11);
+-webkit-box-shadow:1px 2px 10px 5px rgb(245 158 11);
+-moz-box-shadow: 1px 2px 10px 5px rgb(245 158 11);
+}
 
 
 

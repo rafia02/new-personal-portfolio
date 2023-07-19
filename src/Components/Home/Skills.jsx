@@ -15,12 +15,12 @@ const Skills = () => {
 
 
     return (
-        <div className="my-32 w-4/5 mx-auto">
+        <div className="mt-32 w-4/5 mx-auto">
             <h1 className="text-4xl font-bold text-center my-16 text-[#ede3f8] ">My Skills</h1>
             <div class="my-carousel">
                 {
                     datas.map(d => <div className="mr-7 h-60">
-                    <div className="card w-64 mx-auto md:mx-auto md:w-52 bg-[#3A2B71] shadow-xl flex flex-col justify-center items-center py-10">
+                    <div className="card w-64 mx-auto md:mx-auto md:w-52 bg-[#230252] border border-purple-700 shadow-xl flex flex-col justify-center items-center py-10">
                         <div className="w-20 rounded-full bg-gray-100 p-3">
                             <img src={d.img} alt="" className="w-20 mx-auto" />
                         </div>
@@ -33,6 +33,7 @@ const Skills = () => {
                  </div>)
                 }
             </div>
+            
         </div>
     );
 };

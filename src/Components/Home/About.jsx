@@ -7,7 +7,7 @@ const About = () => {
         <div className="mt-20">
             <div className="w-2/3 mx-auto">
                 <h1 className="text-2xl mb-5 font-bold text-center text-[#e4cbfd]">Who I Am ?</h1>
-                <h1 className="text-3xl font-bold text-center text-[#ede3f8]">An enthusiastic developer who loves to code?</h1>
+                <h1 className="text-3xl font-bold text-center text-[#ede3f8]">A passionate developer who loves to code</h1>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 mx-6 mt-10 gap-20">
