@@ -1,19 +1,20 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { dataProject } from '../DataProjects';
 import SingleProject from '../ProjectPage/SingleProject';
 
 const Project = () => {
     const [project, setProject] = useState([])
     const [showAll, setShowAll] = useState(false)
 
-    useEffect(() => {
-        fetch("../../../public/projects.json")
-            .then(res => res.json())
-            .then(data => {
-                setProject(data)
-            })
-            .catch(e => console.error(e))
-    }, [])
+    // useEffect(() => {
+    //     fetch("../../../public/projects.json")
+    //         .then(res => res.json())
+    //         .then(data => {
+    //             setProject(data)
+    //         })
+    //         .catch(e => console.error(e))
+    // }, [])
 
     console.log(project)
     return (
@@ -21,14 +22,14 @@ const Project = () => {
             <h1 className="text-white font-bold mb-14 text-center text-4xl"> My Projects</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-16">
                 {!showAll &&
-                    project.slice(0, 3).map(pro => <SingleProject
+                    dataProject.slice(0, 3).map(pro => <SingleProject
                         key={pro.title}
                         pro={pro}
                     ></SingleProject>)
                 }
 
                 {showAll &&
-                    project.map(pro => <SingleProject
+                    dataProject.map(pro => <SingleProject
                         key={pro.title}
                         pro={pro}
                     ></SingleProject>)
