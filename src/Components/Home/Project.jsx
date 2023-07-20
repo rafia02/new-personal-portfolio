@@ -16,7 +16,9 @@ const Project = () => {
     //         .catch(e => console.error(e))
     // }, [])
 
-    console.log(project)
+
+
+    // console.log(project)
     return (
         <div className="mb-20 mt-20 mx-6">
             <h1 className="text-white font-bold mb-14 text-center text-4xl"> My Projects</h1>
