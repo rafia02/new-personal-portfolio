@@ -15,7 +15,7 @@ const Skills = () => {
 
 
     return (
-        <div className="mt-32 w-4/5 mx-auto">
+        <div className="mt-20 w-4/5 mx-auto">
             <h1 className="text-4xl font-bold text-center my-16 text-[#ede3f8] ">My Skills</h1>
             <div class="my-carousel">
                 {

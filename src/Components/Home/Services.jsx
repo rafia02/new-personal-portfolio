@@ -5,14 +5,15 @@ import design from "../../images/design.json"
 import development from "../../images/development.json"
 import support from "../../images/support.json"
 
+
 const Services = () => {
 
     return (
         <div className='mt-5 mx-6 mb-20'>
             <h1 className='text-white mb-16 text-3xl font-bold text-center'>What services do I provide for my clients?</h1>
-            <div className='flex flex-col md:flex-row gap-5 md:gap-0  justify-between '>
+            <div   className='flex flex-col md:flex-row gap-5 md:gap-0  justify-between '>
 
-            <div className='bg-[#230252] rounded-xl border-2 border-purple-700 py-10  md:py-10 pl-32 md:px-14'>
+                <div className='bg-[#230252] rounded-xl border-2 border-purple-700 py-10  md:py-10 pl-32 md:px-14'>
                     <div className='w-40 ml-4  '>
                         <Lottie animationData={design}></Lottie>
                     </div>
@@ -47,7 +48,7 @@ const Services = () => {
                         <li>Available for any time</li>
                     </ul>
                 </div>
-                
+
             </div>
         </div>
     );

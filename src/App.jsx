@@ -4,8 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { RouterProvider } from 'react-router-dom'
 import { router } from './Routers/Router'
-
-
+import toast, { Toaster } from 'react-hot-toast';
 
 
 function App({ children }) {
@@ -16,6 +15,7 @@ function App({ children }) {
       <RouterProvider router={router}>
         {children}
       </RouterProvider>
+      <Toaster />
     </div>
   )
 }

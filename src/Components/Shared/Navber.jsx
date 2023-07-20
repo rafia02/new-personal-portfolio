@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { BsGithub, BsLinkedin} from "react-icons/bs";
-import { TfiLinkedin } from "react-icons/tfi";
+
 
 
 
@@ -9,10 +9,10 @@ const Navber = () => {
 
     const manueBar = <>
         <Link to="/" className=' hover:bg-purple-600 px-4 rounded duration-700 mb-2 md:mb-0 mr-2 font-semibold text-lg ' >Home</Link>
-        <Link to="/" className='hover:bg-purple-600 px-4 rounded duration-700 mb-2 md:mb-0 mr-2 font-semibold text-lg'>About</Link>
-        <Link to="/" className='hover:bg-purple-600 px-4 rounded duration-700 mb-2 md:mb-0 mr-2 font-semibold text-lg'>Skills</Link>
-        <Link to="/" className='hover:bg-purple-600 px-4 rounded duration-700 mb-2 md:mb-0 mr-2 font-semibold text-lg'>Projects</Link>
-        <Link to="/" className='hover:bg-purple-600 px-4 rounded duration-700 mb-2 md:mb-0 mr-2 font-semibold text-lg'>Contact</Link>
+        <Link to="/about" className='hover:bg-purple-600 px-4 rounded duration-700 mb-2 md:mb-0 mr-2 font-semibold text-lg'>About</Link>
+        <Link to="/skills" className='hover:bg-purple-600 px-4 rounded duration-700 mb-2 md:mb-0 mr-2 font-semibold text-lg'>Skills</Link>
+        <Link to="/project" className='hover:bg-purple-600 px-4 rounded duration-700 mb-2 md:mb-0 mr-2 font-semibold text-lg'>Projects</Link>
+        <Link to="/contact" className='hover:bg-purple-600 px-4 rounded duration-700 mb-2 md:mb-0 mr-2 font-semibold text-lg'>Contact</Link>
         
     </>
 
@@ -41,8 +41,8 @@ const Navber = () => {
             </div>
             <div className="navbar-end text-2xl mr-10">
 
-                <Link className="mr-5 border-5 border-red-500"><BsGithub></BsGithub></Link>
-                <Link><BsLinkedin></BsLinkedin></Link>
+                <a href="https://github.com/rafia02" target="_blank" className="mr-5"><BsGithub></BsGithub></a>
+                <a  target="_blank" href="https://www.linkedin.com/in/rafia-binte-rashed/"><BsLinkedin></BsLinkedin></a>
 
 
 

@@ -36,13 +36,13 @@ const SingleProject = ({ pro }) => {
 
 
 
-            <div className='absolute bottom-0 pb-2'>
-                <div className='mb-3 flex justify-between  '>
-                    <a className='bg-purple-700 mr-[5px] hover:bg-purple-600 duration-700 font-bold px-3 py-1 text-center text-white rounded-sm' href={live} target="_blank" >Client Code</a>
+            <div className='absolute  w-full  bottom-0 pb-2'>
+                <div className='mb-3 flex justify-between '>
+                    <a className='bg-purple-700  hover:bg-purple-600 duration-700 font-bold px-3 py-1 text-center text-white rounded-sm' href={live} target="_blank" >Live</a>
 
-                    <a className='bg-purple-700 mr-[5px] hover:bg-purple-600 duration-700 font-bold px-3 py-1 text-center text-white rounded-sm' href={client} target="_blank" >Server Code</a>
+                    <a className='bg-purple-700  hover:bg-purple-600 duration-700 font-bold px-3 py-1 text-center text-white rounded-sm' href={client} target="_blank" >Client</a>
 
-                    <a className='bg-purple-700 hover:bg-purple-600 duration-700 font-bold px-3 py-1 text-center text-white rounded-sm' href={server} target="_blank" >Live Site</a>
+                    <a className='bg-purple-700 mr-6 hover:bg-purple-600 duration-700 font-bold px-3 py-1 text-center text-white rounded-sm' href={server} target="_blank" >Server</a>
 
                 </div>
             </div>
