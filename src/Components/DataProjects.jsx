@@ -5,6 +5,7 @@ import photography from "../images/photography.png"
 import emajohn from "../images/emajohn.png"
 import typer from "../images/typer.png"
 import task from "../images/task.png"
+import aidiex from "../images/aidiex.png"
 
 export const dataProject = [
     {
@@ -46,6 +47,20 @@ export const dataProject = [
       "server": "https://github.com/milonahmedshuvo/Food_delivery_website_server",
       "live": "https://food-delivery-website-projects.web.app/",
       "des": "This is an online food delivery website. Two team member have completed this project. We Implemented all e-commerce website functionality.Implement add to cart functionality, wishlist, increase, decrease, quantity and update car tnotification and check out page functionality.Explore mongodb curd operation."
+    },
+    {
+      "categori": "Front end",
+      "title":"Aidiex",
+      "technology": [
+          "javascript",
+          "react",
+          "css"
+      ],
+      "image": aidiex,
+      "client": "https://github.com/rafia02/aidiex-website",
+      "server": "https://github.com/rafia02/aidiex-website",
+      "live": "https://resilient-kringle-96003d.netlify.app/",
+      "des": "Mongodb crud operation , firebase authentication system, online payment system included here.  Admin, Buyer, Seller functionality, Sellers can add a product and advertise their product and also can delete their product.  Advertising products can see the home page, Admin can verify the seller and show them specifically."
     },
     {
       "categori": "Full Stack",
