@@ -25,8 +25,8 @@ const Contact = () => {
     return (
         <div className='my-20 mt-10 md:mt-32 '>
 
-            <div className='grid grid-cols-1 text-center items-center md:grid-cols-2'>
-                <div className='w-full   '>
+            <div className='grid grid-cols-1 text-center gap-8 items-center md:grid-cols-2'>
+                <div className='w-full px-10 '>
                     <img  src={image} alt="" />
                     {/* <Lottie animationData={email}></Lottie> */}
                 </div>
