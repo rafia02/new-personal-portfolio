@@ -3,6 +3,7 @@ import Lottie from "lottie-react";
 import email from '../../images/email.json'
 import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
+import  image from "../../images/email.png"
 
 const Contact = () => {
     const form = useRef();
@@ -24,9 +25,10 @@ const Contact = () => {
     return (
         <div className='my-20 mt-10 md:mt-32 '>
 
-            <div className='grid grid-cols-1 md:grid-cols-2'>
-                <div className='w-full md:w-2/3 '>
-                    <Lottie animationData={email}></Lottie>
+            <div className='grid grid-cols-1 text-center items-center md:grid-cols-2'>
+                <div className='w-full   '>
+                    <img  src={image} alt="" />
+                    {/* <Lottie animationData={email}></Lottie> */}
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
                 <h1 className="text-3xl font-bold text-center mb-8  text-white">Contact Me</h1>
@@ -42,7 +44,7 @@ const Contact = () => {
                     </div>
 
                     <div className='text-center '>
-                        <button type='submit' className='  textarea w-2/3  text-white mt-5 border font-bold text-lg  input bg-amber-600 '>Submit</button>
+                        <button type='submit' className='   w-2/3  text-white mt-5 border font-bold text-lg  input bg-amber-600 '>Submit</button>
                     </div>
                      
                 </form>
