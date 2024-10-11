@@ -11,7 +11,7 @@ const Navber = () => {
         <Link to="/" className=' hover:bg-purple-600 px-4 rounded duration-700 mb-2 md:mb-0 mr-2 font-semibold text-lg ' >Home</Link>
         <Link to="/about" className='hover:bg-purple-600 px-4 rounded duration-700 mb-2 md:mb-0 mr-2 font-semibold text-lg'>About</Link>
         <Link to="/skills" className='hover:bg-purple-600 px-4 rounded duration-700 mb-2 md:mb-0 mr-2 font-semibold text-lg'>Skills</Link>
-        <Link to="/project" className='hover:bg-purple-600 px-4 rounded duration-700 mb-2 md:mb-0 mr-2 font-semibold text-lg'>Projects</Link>
+        <Link to="/projects" className='hover:bg-purple-600 px-4 rounded duration-700 mb-2 md:mb-0 mr-2 font-semibold text-lg'>Projects</Link>
         <Link to="/contact" className='hover:bg-purple-600 px-4 rounded duration-700 mb-2 md:mb-0 mr-2 font-semibold text-lg'>Contact</Link>
         
     </>
@@ -28,10 +28,10 @@ const Navber = () => {
 
                     </ul>
                 </div>
-                <div className=' flex gap-2 text-xl md:text-3xl  font-bold'>
+                <Link to='/' className=' flex gap-2 text-xl md:text-3xl  font-bold'>
                     <h1 className="text-amber-400">Rafia's </h1>
                     <h1 className="text-[#b789f7]">Portfolio</h1>
-                </div>
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

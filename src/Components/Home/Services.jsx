@@ -1,5 +1,4 @@
 import React from 'react';
-import img from "../../images/buy.png"
 import Lottie from "lottie-react";
 import design from "../../images/design.json"
 import development from "../../images/development.json"

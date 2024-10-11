@@ -4,12 +4,15 @@
 @tailwind utilities;
 
 :root{
-  background-color: rgb(29, 5, 62);
+  /* background-color: rgb(29, 5, 62); */
+  background-color: rgb(28, 5, 61);
 }
 
 
 
 /* :root {
+#1a0438
+#121212
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;

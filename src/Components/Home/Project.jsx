@@ -9,26 +9,26 @@ const Project = () => {
 
 
     return (
-        <div className="mb-20 mt-20 mx-6">
+        <div className="mb-20 mt-10 mx-6">
             <h1 className="text-white font-bold mb-14 text-center text-4xl"> My Projects</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-16">
-                {!showAll &&
+                {
                     dataProject.slice(0, 3).map(pro => <SingleProject
                         key={pro.title}
                         pro={pro}
                     ></SingleProject>)
                 }
 
-                {showAll &&
+                {/* {showAll &&
                     dataProject.map(pro => <SingleProject
                         key={pro.title}
                         pro={pro}
                     ></SingleProject>)
-                }
+                } */}
             </div>
 
             <div className='text-center'>
-                <Link onClick={() => setShowAll(!showAll)} className="text-white bg-amber-500 hover:bg-amber-600   duration-500 font-bold text-lg px-5 py-2 rounded"> Show all projects</Link>
+                <Link to='/projects' className="text-white bg-amber-500 hover:bg-amber-600   duration-500 font-bold text-lg px-5 py-2 rounded"> Show all projects</Link>
 
             </div>
         </div>
