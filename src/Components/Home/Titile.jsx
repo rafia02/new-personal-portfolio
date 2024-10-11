@@ -6,7 +6,7 @@ const Titile = () => {
     return (
 
         <div className="flex mt-12 items-center md:justify-around md:flex-row flex-col gap-16 md:gap-5">
-            <div className="text-center md:text-start font-bold">
+            <div className="text-center px-2 md:px-0 md:text-start font-bold">
                 <h1 className="text-[#b789f7] text-5xl mb-10">Rafia Binte Rashed</h1>
                 <div className="mb-16 gap-3 items-center md:flex md:justify-center">
                     <span className="text-4xl mr-3 md:mr-0 text-amber-400 ">MERN</span>

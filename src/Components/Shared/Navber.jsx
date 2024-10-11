@@ -17,7 +17,7 @@ const Navber = () => {
     </>
 
     return (
-        <div className="navbar mx-5 text-purple-100 py-7">
+        <div className="navbar md:px-5 text-purple-100 py-7">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -39,7 +39,7 @@ const Navber = () => {
                     {manueBar}
                 </ul>
             </div>
-            <div className="navbar-end text-2xl mr-10">
+            <div className="navbar-end mr-2 md:mr-0 text-2xl">
 
                 <a href="https://github.com/rafia02" target="_blank" className="mr-5"><BsGithub></BsGithub></a>
                 <a  target="_blank" href="https://www.linkedin.com/in/rafia-binte-rashed/"><BsLinkedin></BsLinkedin></a>
