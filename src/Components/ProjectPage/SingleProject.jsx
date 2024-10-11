@@ -30,9 +30,9 @@ const SingleProject = ({ pro }) => {
                         <FaExternalLinkAlt className='text-sm text-amber-400' />
                         <span className='text-amber-400 '>Demo</span>
                     </a>
-                    <Link to={`project/${id}`} className='flex text-[#dfc8ff] hover:scale-105 duration-300 items-center gap-2 font-bold ' >
+                    <Link to={`project/${id}`} className='flex text-[#be93fc] hover:scale-105 duration-300 items-center gap-2 font-bold ' >
                         < FaArrowRight className='text-sm ' />
-                        <span className=''>View More</span>
+                        <span className=''>View Details</span>
                     </Link>
                 </div>
             </div>
