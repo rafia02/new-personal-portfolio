@@ -12,7 +12,7 @@ const Titile = () => {
                     <span className="text-4xl mr-3 md:mr-0 text-amber-400 ">MERN</span>
                     <span className="text-3xl text-white">Stack Web Developer</span>
                 </div>
-                <a target="_blank" href='https://drive.google.com/file/d/173DvLuEXxG8L9v18QLdxQRep_IK40ITE/view?usp=sharing' className="text-white hover:bg-amber-600   bg-amber-500   duration-700 font-bold text-lg px-5 py-2 rounded ">Show Resume</a>
+                <a href='#' className="text-white hover:bg-amber-600   bg-amber-500   duration-700 font-bold text-lg px-5 py-2 rounded ">Show Resume</a>
             </div>
             <div className="">
                 <div className=" rounded-full" >

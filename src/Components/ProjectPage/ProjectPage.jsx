@@ -49,10 +49,10 @@ const ProjectPage = () => {
 
         </div>
 
-        <div className='text-center'>
+        {/* <div className='text-center'>
             <Link to='/projects' className="text-white bg-amber-500 hover:bg-amber-600   duration-500 font-bold text-lg px-5 py-2 rounded"> Show all projects</Link>
 
-        </div>
+        </div> */}
     </div>
     );
 };

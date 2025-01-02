@@ -17,7 +17,7 @@ const About = () => {
                 <div>
                 <h1 className="text-xl mb-3 font-bold text-[#e5d7f5] ">About me</h1>
                 <hr className="border w-20 mb-4" />
-                <p className="text-[#9995af] text-lg text-justify ">My name is Rafia Binte Rashed from Bangladesh. I am a MERN stack web developer specializing in React.js development. I enjoy learning new technologies. My interest in web development started in 2022. I use Javascript, React.js, Next.js, Express, Node, Mongodb, Firebase and many other technologies to build high-performance interactive experiences and products. Recently working on some great and best projects. I love to face new chalange and implement new things.</p>
+                <p className="text-[#9995af] text-lg text-justify ">My name is Rafia Binte Rashed from Bangladesh. I am a MERN stack web developer specializing in React.js, Next.js development. I enjoy learning new technologies. My interest in web development started in 2022. I use Javascript, React.js, Next.js, Express, Node, Mongodb, Firebase and many other technologies to build high-performance interactive experiences and products. Recently working on some great and best projects. I love to face new chalange and implement new things.</p>
                 </div>
             </div>
 
