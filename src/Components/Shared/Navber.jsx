@@ -111,7 +111,7 @@ const Navber = () => {
             </Link>
             <Link
                 to="/contact"
-                className={`hover:border-b-purple-600 hover:border-b-2 mb-2 md:mb-0 font-semibold text-lg ${
+                className={`hover:border-b-purple-600 hover:border-b-2 mb-2 md:mb-0 mr-10 font-semibold text-lg ${
                     location.pathname === "/contact" ? "border-b-purple-600 border-b-2 text-white" : ""
                 }`}
             >
